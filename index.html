@@ -6,7 +6,7 @@
   <title>TunnelMotor.net — The End of the SD40T-2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@500;600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Rajdhani:wght@600;700&family=Inter:wght@300;400&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #1c1c1c;
@@ -32,10 +32,13 @@
       min-height: 100vh;
     }
 
+    /* SP / Rio Grande style speed lettering */
     .speed {
-      font-family: 'Bebas Neue', sans-serif;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.04em;
+      font-style: italic;
     }
 
     .container {
@@ -47,13 +50,16 @@
     header {
       border-bottom: 1px solid var(--border);
       padding: 1.25rem 0;
-      margin-bottom: 2.5rem;
+      margin-bottom: 3rem;
     }
 
     .logo {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: 1.5rem;
-      letter-spacing: 0.1em;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      font-size: 1.45rem;
+      letter-spacing: 0.08em;
+      font-style: italic;
+      text-transform: uppercase;
       color: var(--text);
       text-decoration: none;
     }
@@ -63,9 +69,9 @@
     }
 
     h1 {
-      font-size: clamp(2.4rem, 7vw, 3.6rem);
-      line-height: 1;
-      margin-bottom: 0.75rem;
+      font-size: clamp(2.6rem, 8vw, 3.8rem);
+      line-height: 1.05;
+      margin-bottom: 0.6rem;
     }
 
     h1 span {
@@ -74,25 +80,11 @@
 
     .subtitle {
       font-family: 'Rajdhani', sans-serif;
-      font-weight: 600;
+      font-weight: 700;
       font-size: 0.95rem;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.2em;
       text-transform: uppercase;
       color: var(--orange);
-      margin-bottom: 2rem;
-    }
-
-    .photo {
-      width: 100%;
-      border-radius: 3px;
-      border: 1px solid var(--border);
-      margin-bottom: 0.75rem;
-      display: block;
-    }
-
-    .caption {
-      font-size: 0.85rem;
-      color: var(--muted);
       margin-bottom: 2.5rem;
     }
 
@@ -128,18 +120,11 @@
 
   <div class="container">
     <header>
-      <a href="/" class="logo">TUNNEL<span>MOTOR</span>.NET</a>
+      <a href="/" class="logo">Tunnel<span>Motor</span>.net</a>
     </header>
 
     <h1 class="speed">The End of the<br><span>SD40T-2</span></h1>
     <p class="subtitle">Southern Pacific · Rio Grande</p>
-
-    <img 
-      src="38826932965_bf38ace0c2_b.jpg" 
-      alt="Southern Pacific SD40T-2 8376 in Bloody Nose paint" 
-      class="photo"
-    >
-    <p class="caption">SP 8376 in classic Bloody Nose paint — gray body, red nose, large white “S”.</p>
 
     <p>
       The EMD SD40T-2 “Tunnel Motor” was built for the mountains. 
