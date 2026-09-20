@@ -1,2 +1,2 @@
 # MogulWorks.co
-MogulWorks.co website
+https://www.MogulWorks.co website
